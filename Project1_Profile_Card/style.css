@@ -1,30 +1,52 @@
 body{
-  background-color: lightblue;
+  background-color: #c1d9db;
+display:flex;
+align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin:0;
 
 }
 
 .profile{
-  border: 2px solid black;
-  height: 500px;
+  border: 2px solid none;
+  height: 400px;
   width: 300px;
-  margin: auto;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   border-radius: 10px;
+  box-shadow: 2px 2px 4px grey, -2px -2px 4px grey;
+  text-align: center;
+
+
+
+}
+.part1 #image{
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  border-bottom-color:#2268c9;
+  top: 35px;
 
 
 }
 
 .part1{
-  border: 2px solid black;
+  border: 2px solid none;
   width: 300px;
   height: 200px;
-  background-color: blue;
+  background-color: #2268c9;
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
 }
 
 .part2{
   text-align: center;
+
 }
 
 .part2 .icons{
@@ -33,7 +55,6 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
 
 
 
@@ -52,14 +73,16 @@ body{
 
 
 .part2 .buttons li button{
- background-color: blue;
- border-radius: 10px;
- width: 90px;
+ background-color: #2268c9;
+ border-radius: 20px;
+ width: 100px;
+ height: 30px;
  border: none;
-color: white;
+color: rgba(249, 241, 241, 0.936);
 padding: 5px;
 font-size: 12px;
 margin: 10px;
+box-shadow: 1px 1px 2px grey;
 
 }
 
@@ -69,7 +92,9 @@ margin: 10px;
 
 }
 .part2 .likes li{
-  border-right: 2px solid black;
+  border-right: 2px solid rgb(182, 178, 178);
+  height: 15px;
+
 
 
 
