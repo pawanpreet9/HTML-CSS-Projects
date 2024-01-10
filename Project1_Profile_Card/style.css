@@ -28,9 +28,13 @@ align-items: center;
   border-radius: 50%;
   position: relative;
   border-bottom-color:#2268c9;
-  top: 35px;
+  top: 34px;
 
 
+}
+
+.part1 .img{
+  border: 2px solid #2268c9;
 }
 
 .part1{
@@ -60,10 +64,6 @@ align-items: center;
 
 }
 
-.part2 .icons li{
-
-
-}
 
 .part2 .buttons{
     display: flex;
