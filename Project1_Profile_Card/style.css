@@ -1,0 +1,82 @@
+body{
+  background-color: lightblue;
+
+}
+
+.profile{
+  border: 2px solid black;
+  height: 500px;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+
+
+}
+
+.part1{
+  border: 2px solid black;
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+}
+
+.part2{
+  text-align: center;
+}
+
+.part2 .icons{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+
+}
+
+.part2 .icons li{
+
+
+}
+
+.part2 .buttons{
+    display: flex;
+    list-style: none;
+
+}
+
+
+.part2 .buttons li button{
+ background-color: blue;
+ border-radius: 10px;
+ width: 90px;
+ border: none;
+color: white;
+padding: 5px;
+font-size: 12px;
+margin: 10px;
+
+}
+
+.part2 .likes{
+  list-style: none;
+  display: flex;
+
+}
+.part2 .likes li{
+  border-right: 2px solid black;
+
+
+
+  width: 60px;
+  padding: 5px;
+}
+
+#share{
+  border-right: none;
+}
+
